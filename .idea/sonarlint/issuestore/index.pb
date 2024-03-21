@@ -31,3 +31,5 @@ D
 tests/test_models.py,0\4\044905dfea3f67630cadcc66b454752c6685fc88
 H
 justcard/poker/holdem.py,4\f\4f5cce46e05e1adabfa52b72f6f0d4a67b10a0b2
+G
+.pre-commit-config.yaml,e\7\e7d14d429f898757a423156de0e8c49d75240694
