@@ -33,3 +33,6 @@ H
 justcard/poker/holdem.py,4\f\4f5cce46e05e1adabfa52b72f6f0d4a67b10a0b2
 G
 .pre-commit-config.yaml,e\7\e7d14d429f898757a423156de0e8c49d75240694
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
