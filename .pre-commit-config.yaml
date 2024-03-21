@@ -5,7 +5,7 @@ default_language_version:
 ci:
     skip:
 #        - pytest-check
-        - shelf-commit-msg]
+        - shelf-commit-msg
     autofix_commit_msg: |
         🚧 [pre-commit.ci] auto fixes from pre-commit.com hooks
     autofix_prs: true
