@@ -1,46 +1,0 @@
-
-2python:S17001"Rename field "deck"(Åìæâ8Ç¾í¥×1
-python:S117J"aRename this local variable "numCards_in_Hand" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ò¼±ê8È¾í¥×1
-wpython:S117E"TRename this parameter "numHands" to match the regular expression ^[_a-z][a-z0-9_]*$.(×±ôÿÿÿÿÿ8È¾í¥×1
-Dpython:S1481L"%Remove the unused local variable "i".(ÏõÛı8É¾í¥×1
-Dpython:S1481N"%Remove the unused local variable "j".(ù¾é8É¾í¥×1
-~python:S117T"[Rename this local variable "sortedHand" to match the regular expression ^[_a-z][a-z0-9_]*$.(»ØàÄùÿÿÿÿ8É¾í¥×1
-~python:S117["[Rename this local variable "sortedHand" to match the regular expression ^[_a-z][a-z0-9_]*$.(İß—ùÿÿÿÿ8É¾í¥×1
-vpython:S117j"XRename this local variable "Currank" to match the regular expression ^[_a-z][a-z0-9_]*$.(ã§¹Ô8É¾í¥×1
-vpython:S117i"XRename this local variable "Cursuit" to match the regular expression ^[_a-z][a-z0-9_]*$.(ç¬é—8Ê¾í¥×1
-~python:S117f"[Rename this local variable "sortedHand" to match the regular expression ^[_a-z][a-z0-9_]*$.(İß—ùÿÿÿÿ8Ê¾í¥×1
-ipython:S100d"KRename method "isRoyal" to match the regular expression ^[a-z_][a-z0-9_]*$.(—§Ë™8Ê¾í¥×1
-{python:S117~"XRename this local variable "Currank" to match the regular expression ^[_a-z][a-z0-9_]*$.(ìƒäÈÿÿÿÿÿ8Ê¾í¥×1
-vpython:S117}"XRename this local variable "Cursuit" to match the regular expression ^[_a-z][a-z0-9_]*$.(ç¬é—8Ê¾í¥×1
-~python:S117z"[Rename this local variable "sortedHand" to match the regular expression ^[_a-z][a-z0-9_]*$.(İß—ùÿÿÿÿ8Ê¾í¥×1
-qpython:S100x"SRename method "isStraightFlush" to match the regular expression ^[a-z_][a-z0-9_]*$.(ŠöÀ8Ë¾í¥×1
-|python:S117‘"XRename this local variable "Currank" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÊóÀÑşÿÿÿÿ8Ë¾í¥×1
-python:S117"[Rename this local variable "sortedHand" to match the regular expression ^[_a-z][a-z0-9_]*$.(İß—ùÿÿÿÿ8Ë¾í¥×1
-hpython:S100Œ"JRename method "isFour" to match the regular expression ^[a-z_][a-z0-9_]*$.(½ãØL8Ë¾í¥×1
-Hpython:S1481"(Remove the unused local variable "flag".(À¸èË8ë¾í¥×1
-Ipython:S1940˜")Use the opposite operator (">=") instead.(Ü—§‡8ö¾í¥×1
-python:S117¢"[Rename this local variable "sortedHand" to match the regular expression ^[_a-z][a-z0-9_]*$.(İß—ùÿÿÿÿ8÷¾í¥×1
-ipython:S100 "JRename method "isFull" to match the regular expression ^[a-z_][a-z0-9_]*$.(ßœó8÷¾í¥×1
-Hpython:S1481£"(Remove the unused local variable "flag".(À¸èË8ø¾í¥×1
-wpython:S117¾"XRename this local variable "Cursuit" to match the regular expression ^[_a-z][a-z0-9_]*$.(ç¬é—8ù¾í¥×1
-python:S117º"[Rename this local variable "sortedHand" to match the regular expression ^[_a-z][a-z0-9_]*$.(İß—ùÿÿÿÿ8ù¾í¥×1
-opython:S100¸"KRename method "isFlush" to match the regular expression ^[a-z_][a-z0-9_]*$.(€‰Î¡ùÿÿÿÿ8ù¾í¥×1
-Npython:S1940À")Use the opposite operator ("!=") instead.(Ëõ´ìıÿÿÿÿ8û¾í¥×1
-|python:S117Ï"XRename this local variable "Currank" to match the regular expression ^[_a-z][a-z0-9_]*$.(ååï¤ûÿÿÿÿ8ü¾í¥×1
-python:S117Ë"[Rename this local variable "sortedHand" to match the regular expression ^[_a-z][a-z0-9_]*$.(İß—ùÿÿÿÿ8ş¾í¥×1
-mpython:S100Ê"NRename method "isStraight" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ò±Ë„8€¿í¥×1
-|python:S117â"XRename this local variable "Currank" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÊóÀÑşÿÿÿÿ8¿í¥×1
-python:S117Ş"[Rename this local variable "sortedHand" to match the regular expression ^[_a-z][a-z0-9_]*$.(İß—ùÿÿÿÿ8¿í¥×1
-opython:S100İ"KRename method "isThree" to match the regular expression ^[a-z_][a-z0-9_]*$.(áÄŠ™ÿÿÿÿÿ8¿í¥×1
-Hpython:S1481ß"(Remove the unused local variable "flag".(À¸èË8¿í¥×1
-python:S117ò"[Rename this local variable "sortedHand" to match the regular expression ^[_a-z][a-z0-9_]*$.(İß—ùÿÿÿÿ8¿í¥×1
-hpython:S100ğ"IRename method "isTwo" to match the regular expression ^[a-z_][a-z0-9_]*$.(£×óÆ8‚¿í¥×1
-Hpython:S1481ó"(Remove the unused local variable "flag".(À¸èË8‚¿í¥×1
-python:S117‡"[Rename this local variable "sortedHand" to match the regular expression ^[_a-z][a-z0-9_]*$.(İß—ùÿÿÿÿ8‚¿í¥×1
-mpython:S100…"IRename method "isOne" to match the regular expression ^[a-z_][a-z0-9_]*$.(Š§Ùıÿÿÿÿ8‚¿í¥×1
-Hpython:S1481ˆ"(Remove the unused local variable "flag".(À¸èË8‚¿í¥×1
-python:S117"[Rename this local variable "sortedHand" to match the regular expression ^[_a-z][a-z0-9_]*$.(İß—ùÿÿÿÿ8ƒ¿í¥×1
-ipython:S100œ"JRename method "isHigh" to match the regular expression ^[a-z_][a-z0-9_]*$.(÷÷Œà8ƒ¿í¥×1
-Hpython:S1481Ÿ"(Remove the unused local variable "flag".(À¸èË8ƒ¿í¥×1
-|python:S117²"XRename this local variable "curHand" to match the regular expression ^[_a-z][a-z0-9_]*$.(Œ¡ÿéşÿÿÿÿ8ƒ¿í¥×1
-xpython:S117ª"YRename this local variable "numHands" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÏÔ®Ü8ƒ¿í¥×1
