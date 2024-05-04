@@ -1,6 +1,6 @@
 # Just: _Card Game_
 
-Just a card game that build from Python. The main propose is playing with
+Just a Card Game that build from Python. The main propose is playing with
 websocket server that able to play some game together with any connected servers.
 
 ## Features

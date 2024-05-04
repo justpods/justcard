@@ -1,2 +1,0 @@
-StrEnum==0.4.15
-clishelf==0.2.0

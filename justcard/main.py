@@ -1,6 +1,6 @@
 import asyncio
 # from justcard.poker.game import play_game
-from justcard.poker.game import main
+from .poker.game import main
 
 
 if __name__ == "__main__":
