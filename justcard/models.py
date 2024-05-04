@@ -1,10 +1,15 @@
 from dataclasses import dataclass
 from enum import Enum
-from strenum import StrEnum
 from functools import lru_cache
 
 
-class Suit(StrEnum):
+class Suit(str, Enum):
+    """Suit enum
+        SPADES = '\u2660'
+        HEARTS = '\u2665'
+        DIAMONDS = '\u2666'
+        CLUBS = '\u2663'
+    """
     SPADES = "♠"
     HEARTS = "♥"
     DIAMONDS = "♦"
@@ -19,13 +24,6 @@ def suit_rank(suit: Suit) -> int:
         "DIAMONDS": 2,
         "CLUBS": 1,
     }[suit.name]
-
-
-# class Suit(Enum):
-#     SPADES = '\u2660'
-#     HEARTS = '\u2665'
-#     DIAMONDS = '\u2666'
-#     CLUBS = '\u2663'
 
 
 class Rank(Enum):

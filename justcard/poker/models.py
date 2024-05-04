@@ -1,6 +1,5 @@
 from dataclasses import dataclass
 from justcard.models import Card
-from strenum import StrEnum
 from enum import Enum
 
 
@@ -10,7 +9,7 @@ class GameState:
     players: list[list[Card]]
 
 
-class Action(StrEnum):
+class Action(str, Enum):
     FOLD = "fold"
     CALL = "call"
     RAISE = "raise"
