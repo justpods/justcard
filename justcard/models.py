@@ -1,15 +1,16 @@
 from dataclasses import dataclass
-from enum import Enum
+from enum import Enum, IntEnum
 from functools import lru_cache
 
 
 class Suit(str, Enum):
     """Suit enum
-        SPADES = '\u2660'
-        HEARTS = '\u2665'
-        DIAMONDS = '\u2666'
-        CLUBS = '\u2663'
+    SPADES = '\u2660'
+    HEARTS = '\u2665'
+    DIAMONDS = '\u2666'
+    CLUBS = '\u2663'
     """
+
     SPADES = "♠"
     HEARTS = "♥"
     DIAMONDS = "♦"
@@ -26,7 +27,7 @@ def suit_rank(suit: Suit) -> int:
     }[suit.name]
 
 
-class Rank(Enum):
+class Rank(IntEnum):
     TWO = 2
     THREE = 3
     FOUR = 4
@@ -52,22 +53,18 @@ class Card:
 
     def __eq__(self, other) -> bool:
         if isinstance(other, Card):
-            return (
-                self.rank == other.rank
-                and suit_rank(self.suit) == suit_rank(other.suit)
-            )
+            return self.rank == other.rank and suit_rank(
+                self.suit
+            ) == suit_rank(other.suit)
 
     def __ne__(self, other) -> bool:
         return not self.__eq__(other)
 
     def __gt__(self, other) -> bool:
         if isinstance(other, Card):
-            return (
-                self.rank > other.rank
-                or (
-                    self.rank == other.rank
-                    and suit_rank(self.suit) > suit_rank(other.suit)
-                )
+            return self.rank > other.rank or (
+                self.rank == other.rank
+                and suit_rank(self.suit) > suit_rank(other.suit)
             )
 
     def __ge__(self, other):
