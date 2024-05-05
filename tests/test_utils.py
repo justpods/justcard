@@ -1,4 +1,4 @@
-from justcard.reuseable import create_deck
+from justcard.utils import create_deck
 
 
 def test_create_deck():
